@@ -4,22 +4,16 @@
 const userInput = getInput(0);
 
 
-function fizzBuzz(userInput){
-  if(userInput % 3 === 0 && userInput % 5 === 0){
-    return "FizzBuzz"
-  }
-  else if(userInput % 3 === 0){
-    return "Fizz";
-  }
-  else if(userInput % 5 === 0){
-    return "Buzz";
-  }
-  else {
-    return userInput;
-  }
-}
 
-console.log(fizzBuzz(userInput));
+if(userInput % 3 === 0 && userInput % 5 === 0){
+  console.log("FizzBuzz");
+}
+else if(userInput % 3 === 0){
+  console.log("Fizz");
+}
+else if(userInput % 5 === 0){
+  console.log("Buzz");
+}
 /*******************************************************************************
   The below helper function will return an argument the user used when launching
   the app.
