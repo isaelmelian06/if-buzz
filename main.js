@@ -14,6 +14,10 @@ else if(userInput % 3 === 0){
 else if(userInput % 5 === 0){
   console.log("Buzz");
 }
+else {
+  console.log(userInput);
+}
+
 /*******************************************************************************
   The below helper function will return an argument the user used when launching
   the app.
